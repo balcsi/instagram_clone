@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/toolbar_top"
+            android:background="@drawable/grey_border_bot"/>
+    </android.support.design.widget.AppBarLayout>
+
+
+       <android.support.design.widget.AppBarLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_gravity="bottom">
+
+           <!-- contentInset + minheight, kulonben a children vmiert nem veszi fel a megfelelo heightot -->
+           <android.support.v7.widget.Toolbar
+               android:layout_width="match_parent"
+               android:minHeight="?attr/actionBarSize"
+               android:layout_height="match_parent"
+               android:contentInsetEnd="2dp"
+               android:contentInsetLeft="2dp"
+               android:contentInsetRight="2dp"
+               app:contentInsetStart="2dp"
+               android:id="@+id/toolbar_bot"
+               android:background="@drawable/grey_border_top"
+               android:weightSum="1">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="?attr/actionBarSize"
+                   android:gravity="center_horizontal|center_vertical"
+                   android:orientation="horizontal"
+                   android:weightSum="100">
+
+                   <ImageView
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="25"
+                       android:background="@drawable/ic_android_black_24dp" />
+
+                   <ImageView
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="25"
+                       android:background="@drawable/ic_attach_file_black_24dp" />
+
+                   <ImageView
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="25"
+                       android:background="@drawable/ic_attach_money_black_24dp" />
+
+                   <ImageView
+                       android:layout_width="0dp"
+                       android:layout_height="match_parent"
+                       android:layout_weight="25"
+                       android:background="@drawable/ic_arrow_downward_black_24dp" />
+
+               </LinearLayout>
+
+           </android.support.v7.widget.Toolbar>
+
+
+       </android.support.design.widget.AppBarLayout>
+
+
+<!--
+    ahhoz h felul ne legyen ott az Activity neve, ahhoz
+        style
+-->
+
+
+        
+
+
+</android.support.design.widget.CoordinatorLayout>
