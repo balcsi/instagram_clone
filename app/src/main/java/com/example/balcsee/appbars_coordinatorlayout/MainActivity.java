@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
 
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
         mViewPager = (ViewPager) findViewById(R.id.container);
-        Log.d(TAG, "before ViewPager is set");
+        //Log.d(TAG, "before ViewPager is set");
         setupViewPager(mViewPager);
-        Log.d(TAG, "ViewPager has been set up.");
+        //Log.d(TAG, "ViewPager has been set up.");
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.toolbar_top);
         tabLayout.setupWithViewPager(mViewPager);

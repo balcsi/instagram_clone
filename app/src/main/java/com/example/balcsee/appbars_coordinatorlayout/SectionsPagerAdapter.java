@@ -3,6 +3,7 @@ package com.example.balcsee.appbars_coordinatorlayout;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
+import android.view.View;
 import android.widget.Button;
 
 import java.util.ArrayList;
