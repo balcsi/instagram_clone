@@ -4,6 +4,8 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AppBars_CoordinatorLayout.iml" filepath="$PROJECT_DIR$/AppBars_CoordinatorLayout.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/instagram_clone.iml" filepath="$PROJECT_DIR$/instagram_clone.iml" />
     </modules>
   </component>
 </project>
